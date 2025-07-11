@@ -21,7 +21,7 @@ const getCurrentWeather = (lat, lon) => {
     const city = document.querySelector(".city");
     switch(result.name) {
       case "Jamwon-dong":
-        cityName = "💗 성주니";
+        cityName = "🎯 역삼동";
     }
     city.innerText = cityName;
 
